@@ -12,17 +12,17 @@ I have created a simulated SME environment using vulnerable virtual machines fro
 I have created a small, isolated network for this lab, here is the network IP range.
  - AssNet – 10.0.22.0/24
 1. Reconnaissance and Target Analysis
-  1.1 Network Discovery
-  - Tool Used: 
-    - netdiscover
-  - Command:
-    - netdiscover -r 10.0.22.0/24
+	  1.1 Network Discovery
+		  - Tool Used: 
+		    - netdiscover
+		  - Command:
+		    - netdiscover -r 10.0.22.0/24
 
-Result:
-•	Detected 3 active hosts: 
-o	10.10.10.3 – Kali-Linux (Attack-Box)
-o	10.10.10.5 – Windows 7 (TryHackMe: Blue)
-o	10.10.10.6 – Linux Server (Metasploitable2)
+		- Result:
+			- Detected 3 active hosts: 
+				- 10.10.10.3 – Kali-Linux (Attack-Box)
+				- 10.10.10.5 – Windows 7 (TryHackMe: Blue)
+				- 10.10.10.6 – Linux Server (Metasploitable2)
 
 
 1.2 Port Scanning For Server IP – 10.0.22.6
