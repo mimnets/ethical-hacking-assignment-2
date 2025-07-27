@@ -1,14 +1,14 @@
 # ethical-hacking-assignment-2
 This repository contains report for ethical hacking in the isolated virtual environment for learning and report generation purpose only.
-Assignment-2
-Penetration Testing Report (SME - LAB)
-Target Environment
+# Assignment-2
+## Penetration Testing Report (SME - LAB)
+### Target Environment
 I have created a simulated SME environment using vulnerable virtual machines from TryHackMe, Vulnhub, and other sources:
-Machines:
-o	Kali-Linux: Attack-Box,
-o	Blue: Winows-7 Host
-o	Server: Metasploitable2
-Isolated Virtual NAT Network: I have created a small, isolated network for this lab, here is the network IP range.
+### Machines:
+  - Kali-Linux: Attack-Box,
+  - Blue: Winows-7 Host
+  - Server: Metasploitable2
+### Isolated Virtual NAT Network: I have created a small, isolated network for this lab, here is the network IP range.
 o	AssNet – 10.0.22.0/24
 1. Reconnaissance and Target Analysis
 1.1 Network Discovery
