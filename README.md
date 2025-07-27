@@ -1,4 +1,4 @@
-# ethical-hacking-assignment-2
+# Ethical-hacking-assignment-2
 This repository contains report for ethical hacking in the isolated virtual environment for learning and report generation purpose only.
 # Assignment-2
 ## Penetration Testing Report (SME - LAB)
@@ -8,14 +8,15 @@ I have created a simulated SME environment using vulnerable virtual machines fro
   - Kali-Linux: Attack-Box,
   - Blue: Winows-7 Host
   - Server: Metasploitable2
-### Isolated Virtual NAT Network: I have created a small, isolated network for this lab, here is the network IP range.
-o	AssNet – 10.0.22.0/24
+### Isolated Virtual NAT Network: 
+I have created a small, isolated network for this lab, here is the network IP range.
+ - AssNet – 10.0.22.0/24
 1. Reconnaissance and Target Analysis
-1.1 Network Discovery
-•	Tool Used: 
-o	netdiscover
-•	Command:
-o	netdiscover -r 10.0.22.0/24
+  1.1 Network Discovery
+  - Tool Used: 
+    - netdiscover
+  - Command:
+    - netdiscover -r 10.0.22.0/24
 
 Result:
 •	Detected 3 active hosts: 
