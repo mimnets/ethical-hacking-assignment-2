@@ -17,12 +17,11 @@ I have created a small, isolated network for this lab, here is the network IP ra
 		    - netdiscover
 		  - Command:
 		    - netdiscover -r 10.0.22.0/24
-
 		- Result:
-			- Detected 3 active hosts: 
-				- 10.10.10.3 – Kali-Linux (Attack-Box)
-				- 10.10.10.5 – Windows 7 (TryHackMe: Blue)
-				- 10.10.10.6 – Linux Server (Metasploitable2)
+			Detected 3 active hosts: 
+				10.10.10.3 – Kali-Linux (Attack-Box)
+				10.10.10.5 – Windows 7 (TryHackMe: Blue)
+				10.10.10.6 – Linux Server (Metasploitable2)
 
 
 1.2 Port Scanning For Server IP – 10.0.22.6
